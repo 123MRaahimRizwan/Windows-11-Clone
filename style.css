@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    background: url("./img/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.taskbar {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    background-color: #f3f3f3;
+    width: 100%;
+    padding: 1px;
+}
+
+.taskbar img {
+    display: inline-block;
+    margin-left: 450px;
+}
+
+.taskbar-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.chrome-icon {
+    position: absolute;
+}
+
+.chrome-icon img {
+    display: inline-block;
+    width: 5%;
+    height: 5%;
+    margin: 10% 20px;
+}
+
+.chrome-icon p {
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 170px -79px;
+    text-align: center;
+}
+
+.edge-icon {
+    position: absolute;
+}
+
+.edge-icon img {
+    width: 8%;
+    height: 8%;
+    margin: 50% 35px;
+}
+
+.edge-icon p {
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 280px -87px;
+    text-align: center;
+}
+
+.recycle-bin {
+    position: absolute;
+}
+
+.recycle-bin img {
+    width: 5%;
+    height: 5%;
+    margin: 28% 20px;
+}
+
+.recycle-bin p {
+    position: absolute;
+    color: white;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 33% -77px;
+}
